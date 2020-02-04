@@ -7,7 +7,7 @@ The QLearning folder contains the agent which sets up and executes the QLearning
 
 The QLearningGame folder contains all the visual parts of the application and glues everything together.
 
-If you have any questions about application or you'd like to know how to run it then feel free to contact me via [mmaresch.com](http://mmaresch.com).
+If you have any questions about the application or you'd like to know how to run it then feel free to contact me via [mmaresch.com](http://mmaresch.com).
 
 # Dependencies
 Thanks to everyone contributing to any of the following projects:
