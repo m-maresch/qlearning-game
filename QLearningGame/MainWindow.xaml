@@ -1,0 +1,32 @@
+﻿<Window x:Class="QLearningGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QLearningGame"
+        mc:Ignorable="d"
+        Title="QLearning - Maresch" Height="500" Width="500"
+        KeyDown="Window_KeyDown"        
+        >
+    <Grid Name="gameGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="0.5*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>            
+        </Grid.ColumnDefinitions>
+        <Border Background="Orange" Name="playerBorder" Grid.Column="0" Grid.Row="4"/>
+        <Border Background="Green" Name="goalBorder" Grid.Column="2" Grid.Row="1"/>
+        <Label Name="timerLabel" FontSize="20" Grid.Column="0" Grid.Row="5"/>
+        <Button Name="startMachineLearningButton" Grid.Column="3" Grid.Row="5" Grid.ColumnSpan="2" Content="Start Machine Learning" Margin="4" Click="StartMachineLearningButton_Click" FontSize="16"/>        
+    </Grid>
+</Window>
