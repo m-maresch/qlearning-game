@@ -1,5 +1,5 @@
 # QLearning Game
-A desktop app showcasing a **reinforcement learning algorithm**, specifically the **QLearning algorithm**, finding an **optimal solution** to get from **point A to point B** and **visualizing** data about the **learning process** going on behind the scenes. 
+A desktop app/game showcasing a **reinforcement learning algorithm**, specifically the **QLearning algorithm**, finding an **optimal solution** to get from **point A to point B** and **visualizing** data about the **learning process** going on behind the scenes. 
 
 The GameLogic folder contains the logic for the game (e.g. movement). 
 
